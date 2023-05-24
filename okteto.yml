@@ -1,6 +1,6 @@
 build:
   context: .
   args:
-    - URL=https://${OKTETO_NAMESPACE}.com
+    URL: https://${OKTETO_NAMESPACE}.dev.helloheart.com/chief/
 deploy:
   - echo $URL
